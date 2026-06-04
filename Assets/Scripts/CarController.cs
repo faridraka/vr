@@ -4,7 +4,7 @@ using System.Collections;
 public class CubeController : MonoBehaviour
 {
     [Header("Movement Settings")]
-    [SerializeField] private float _moveSpeed = 200f;
+    [SerializeField] private float _moveSpeed = 180f;
     [SerializeField] private float _rotationSensitivity = 2f;
     [SerializeField] private float _minRotationX = -60f;
     [SerializeField] private float _maxRotationX = 60f;
